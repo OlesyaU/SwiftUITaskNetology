@@ -12,10 +12,12 @@ struct ContentView: View {
         VStack {
             Image("logo")
                 .resizable()
-                .frame(width: 100, height: 100, alignment: .top)
+                .interpolation(.high)
+                .frame(width: 100, height: 100)
 //                .aspectRatio(.ulpOfOne, contentMode: .fit)
+    
             
-                .padding(30)
+         
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
