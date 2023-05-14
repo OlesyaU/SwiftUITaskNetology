@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUITaskNetologyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(logged: .constant(false))
         }
     }
 }

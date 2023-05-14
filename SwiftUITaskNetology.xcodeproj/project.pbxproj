@@ -11,6 +11,7 @@
 		76CABFDC2A1027DA00C2DE48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFDB2A1027DA00C2DE48 /* ContentView.swift */; };
 		76CABFDE2A1027DD00C2DE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CABFDD2A1027DD00C2DE48 /* Assets.xcassets */; };
 		76CABFE12A1027DD00C2DE48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CABFE02A1027DD00C2DE48 /* Preview Assets.xcassets */; };
+		76CABFE82A10E39100C2DE48 /* ModifierTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		76CABFDB2A1027DA00C2DE48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76CABFDD2A1027DD00C2DE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CABFE02A1027DD00C2DE48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				76CABFD92A1027DA00C2DE48 /* SwiftUITaskNetologyApp.swift */,
 				76CABFDB2A1027DA00C2DE48 /* ContentView.swift */,
+				76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */,
 				76CABFDD2A1027DD00C2DE48 /* Assets.xcassets */,
 				76CABFDF2A1027DD00C2DE48 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CABFE82A10E39100C2DE48 /* ModifierTextField.swift in Sources */,
 				76CABFDC2A1027DA00C2DE48 /* ContentView.swift in Sources */,
 				76CABFDA2A1027DA00C2DE48 /* SwiftUITaskNetologyApp.swift in Sources */,
 			);
