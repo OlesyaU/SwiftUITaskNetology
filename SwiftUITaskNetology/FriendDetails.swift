@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct FriendDetails: View {
-    
     var friend: Friend
-    
     var body: some View {
         ScrollView {
             friend.image

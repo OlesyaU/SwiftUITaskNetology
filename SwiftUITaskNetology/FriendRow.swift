@@ -9,7 +9,6 @@ import SwiftUI
 
 struct FriendRow: View {
     var friend: Friend
-    
     var body: some View {
         HStack {
             friend.image
@@ -19,7 +18,7 @@ struct FriendRow: View {
                 .frame(width: 60, height: 60)
                 .padding(.leading, 12)
             Text(friend.name)
-
+            
             Spacer()
         }
     }

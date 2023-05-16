@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @Binding var logged: Bool
     
     @State private var login: String = ""
     @State private var password: String = ""
@@ -29,34 +28,30 @@ struct ContentView: View {
                 
                 SecureField("Password", text: $password)
                     .modifier(ModifierTextField())
-                
-              
             }
-      .cornerRadius(12)
-                    .padding(.top, 100)
-                    .padding(16)
-                    .shadow(radius: 2)
-                Button(action: {
-//                    self.logged = true
-                    print("button tapped")
-                }) {
-                    Text("Log In")
-                        .frame(height: 50)
-                        .foregroundColor(.white)
-                }
-                .frame(maxWidth: .infinity, maxHeight: 50)
-                .background(Color("Color from blue pixel"))
-                .cornerRadius(12)
-                .padding(16)
+            .cornerRadius(12)
+            .padding(.top, 100)
+            .padding(16)
+            .shadow(radius: 2)
+            Button(action: {
+                print("button tapped")
+            }) {
+                Text("Log In")
+                    .frame(height: 50)
+                    .foregroundColor(.white)
+            }
+            .frame(maxWidth: .infinity, maxHeight: 50)
+            .background(Color("Color from blue pixel"))
+            .cornerRadius(12)
+            .padding(16)
             Text("HELLO")
                 .modifier(ModifierTitle())
             Text("My friends")
                 .modifier(ModifierText())
-                Spacer()
-                
-            }
+            Spacer()
         }
     }
+}
 
 
 struct ContentView_Previews: PreviewProvider {

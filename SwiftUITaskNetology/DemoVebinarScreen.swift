@@ -16,20 +16,20 @@ struct DemoVebinarScreen: View {
             Text(textLabel)
                 .background(Color(.white))
                 .modifier(ModifierTitle())
-//тут я решила убрать бэкграунд...он порсто для того чтобы выполнить пункты задания полно и верно
+            //тут я решила убрать бэкграунд...он порсто для того чтобы выполнить пункты задания полно и верно
             Slider(value: $flowersCount, in:  0...101, step: 1) {
                 Text("FLOWERS")
-//                не понимаю куда этот текст
+                //                не понимаю куда этот текст
             } minimumValueLabel: {
                 Text("0")
             } maximumValueLabel: {
                 Text("101")
             } onEditingChanged: { boool in
-
+                
                 isEditing = boool
                 textLabel =  "FlowersCount is \(Int(flowersCount))"
             }
-
+            
             Button("Push me") {
                 print("Push me  = pushed ")
                 flowersCount = 0.0

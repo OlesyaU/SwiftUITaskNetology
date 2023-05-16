@@ -8,21 +8,18 @@
 import SwiftUI
 
 struct OceansFriends: View {
-   
+    
     var body: some View {
-     NavigationView {
-
-         List(data) { friend in
-             
-             NavigationLink {
-                 FriendDetails(friend: friend)
-             } label: {
-                FriendRow(friend: friend)
-             }
-         }
-         .navigationTitle("Oceans Friends")
-         .listStyle(.plain)
-            
+        NavigationView {
+            List(data) { friend in
+                NavigationLink {
+                    FriendDetails(friend: friend)
+                } label: {
+                    FriendRow(friend: friend)
+                }
+            }
+            .navigationTitle("Oceans Friends")
+            .listStyle(.plain)
         }
     }
 }

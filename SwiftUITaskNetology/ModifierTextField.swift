@@ -15,8 +15,8 @@ struct ModifierTextField: ViewModifier {
             .border(Color(UIColor.lightGray), width: 0.3)
             .background(Color(.systemGray6))
     }
-    
 }
+
 struct ModifierTitle: ViewModifier {
     func body(content: Content) -> some View {
         content
@@ -32,5 +32,5 @@ struct ModifierText: ViewModifier {
         content
             .font(.footnote)
             .foregroundColor(.purple)
-        }
+    }
 }
