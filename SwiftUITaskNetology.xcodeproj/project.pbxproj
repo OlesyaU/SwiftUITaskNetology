@@ -13,8 +13,13 @@
 		76CABFE12A1027DD00C2DE48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CABFE02A1027DD00C2DE48 /* Preview Assets.xcassets */; };
 		76CABFE82A10E39100C2DE48 /* ModifierTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */; };
 		76CABFEA2A12383200C2DE48 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFE92A12383200C2DE48 /* Task.swift */; };
-		76CABFEC2A12398300C2DE48 /* HeroesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFEB2A12398300C2DE48 /* HeroesList.swift */; };
 		76CABFEE2A123A9200C2DE48 /* DemoVebinarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFED2A123A9200C2DE48 /* DemoVebinarScreen.swift */; };
+		76CABFF22A12D9C200C2DE48 /* OceansFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFF12A12D9C200C2DE48 /* OceansFriends.swift */; };
+		76CABFF42A12DAA200C2DE48 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFF32A12DAA200C2DE48 /* Friend.swift */; };
+		76CABFF62A12DB3F00C2DE48 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFF52A12DB3F00C2DE48 /* Data.swift */; };
+		76CABFF82A134BC500C2DE48 /* FriendDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFF72A134BC500C2DE48 /* FriendDetails.swift */; };
+		76CABFFA2A134CA300C2DE48 /* FriendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFF92A134CA300C2DE48 /* FriendRow.swift */; };
+		76CABFFC2A134E7800C2DE48 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CABFFB2A134E7800C2DE48 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +30,13 @@
 		76CABFE02A1027DD00C2DE48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierTextField.swift; sourceTree = "<group>"; };
 		76CABFE92A12383200C2DE48 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		76CABFEB2A12398300C2DE48 /* HeroesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesList.swift; sourceTree = "<group>"; };
 		76CABFED2A123A9200C2DE48 /* DemoVebinarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVebinarScreen.swift; sourceTree = "<group>"; };
+		76CABFF12A12D9C200C2DE48 /* OceansFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceansFriends.swift; sourceTree = "<group>"; };
+		76CABFF32A12DAA200C2DE48 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		76CABFF52A12DB3F00C2DE48 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		76CABFF72A134BC500C2DE48 /* FriendDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetails.swift; sourceTree = "<group>"; };
+		76CABFF92A134CA300C2DE48 /* FriendRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRow.swift; sourceTree = "<group>"; };
+		76CABFFB2A134E7800C2DE48 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,14 @@
 			children = (
 				76CABFD92A1027DA00C2DE48 /* SwiftUITaskNetologyApp.swift */,
 				76CABFDB2A1027DA00C2DE48 /* ContentView.swift */,
-				76CABFEB2A12398300C2DE48 /* HeroesList.swift */,
+				76CABFFB2A134E7800C2DE48 /* TabView.swift */,
 				76CABFED2A123A9200C2DE48 /* DemoVebinarScreen.swift */,
 				76CABFE72A10E39100C2DE48 /* ModifierTextField.swift */,
+				76CABFF12A12D9C200C2DE48 /* OceansFriends.swift */,
+				76CABFF92A134CA300C2DE48 /* FriendRow.swift */,
+				76CABFF72A134BC500C2DE48 /* FriendDetails.swift */,
+				76CABFF32A12DAA200C2DE48 /* Friend.swift */,
+				76CABFF52A12DB3F00C2DE48 /* Data.swift */,
 				76CABFDD2A1027DD00C2DE48 /* Assets.xcassets */,
 				76CABFDF2A1027DD00C2DE48 /* Preview Content */,
 			);
@@ -149,12 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CABFFC2A134E7800C2DE48 /* TabView.swift in Sources */,
+				76CABFF82A134BC500C2DE48 /* FriendDetails.swift in Sources */,
+				76CABFF22A12D9C200C2DE48 /* OceansFriends.swift in Sources */,
+				76CABFFA2A134CA300C2DE48 /* FriendRow.swift in Sources */,
+				76CABFF42A12DAA200C2DE48 /* Friend.swift in Sources */,
 				76CABFEA2A12383200C2DE48 /* Task.swift in Sources */,
 				76CABFE82A10E39100C2DE48 /* ModifierTextField.swift in Sources */,
 				76CABFEE2A123A9200C2DE48 /* DemoVebinarScreen.swift in Sources */,
 				76CABFDC2A1027DA00C2DE48 /* ContentView.swift in Sources */,
 				76CABFDA2A1027DA00C2DE48 /* SwiftUITaskNetologyApp.swift in Sources */,
-				76CABFEC2A12398300C2DE48 /* HeroesList.swift in Sources */,
+				76CABFF62A12DB3F00C2DE48 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

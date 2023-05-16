@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var logged: Bool
+//    @Binding var logged: Bool
     
     @State private var login: String = ""
     @State private var password: String = ""
@@ -37,7 +37,7 @@ struct ContentView: View {
                     .padding(16)
                     .shadow(radius: 2)
                 Button(action: {
-                    self.logged = true
+//                    self.logged = true
                     print("button tapped")
                 }) {
                     Text("Log In")
@@ -55,15 +55,12 @@ struct ContentView: View {
                 Spacer()
                 
             }
-//        TabView {
-//            <#code#>
-//        }
         }
     }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(logged: .constant(false))
+        ContentView()
     }
 }
