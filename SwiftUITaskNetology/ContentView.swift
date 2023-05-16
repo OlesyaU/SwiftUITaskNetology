@@ -8,21 +8,51 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var login: String = ""
+    @State private var password: String = ""
     var body: some View {
         VStack {
             Image("logo")
                 .resizable()
-                .frame(width: 100, height: 100, alignment: .top)
-//                .aspectRatio(.ulpOfOne, contentMode: .fit)
+                .interpolation(.high)
+                .frame(width: 100, height: 100)
             
-                .padding(30)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .padding(.top, 100)
+                .aspectRatio(.ulpOfOne, contentMode: .fit)
+            
+            VStack(spacing: -0.5){
+                TextField("Login", text: $login)
+                    .modifier(ModifierTextField())
+                
+                SecureField("Password", text: $password)
+                    .modifier(ModifierTextField())
+            }
+            .cornerRadius(12)
+            .padding(.top, 100)
+            .padding(16)
+            .shadow(radius: 2)
+            Button(action: {
+                print("button tapped")
+            }) {
+                Text("Log In")
+                    .frame(height: 50)
+                    .foregroundColor(.white)
+            }
+            .frame(maxWidth: .infinity, maxHeight: 50)
+            .background(Color("Color from blue pixel"))
+            .cornerRadius(12)
+            .padding(16)
+            Text("HELLO")
+                .modifier(ModifierTitle())
+            Text("My friends")
+                .modifier(ModifierText())
+            Spacer()
         }
-        .padding()
-        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
